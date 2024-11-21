@@ -1,0 +1,123 @@
+/* reset margin, padding */
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.banner {
+    height: 830px;
+    /* width: 100%; */
+    background: url("../IMG/banner.jpg") center center no-repeat;
+    padding: 20px;
+}
+
+.green {
+    border: 1px solid green;
+}
+
+.red {
+    border: 1px solid red;
+}
+
+.text-end {
+    text-align: end;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.about-sign-in {
+    height: 80px;
+    width: 100%;
+}
+
+.about,
+.sign-in {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+.about {}
+
+.sign-in {
+    margin-right: 60px;
+    margin-left: 30;
+    border: 2px solid rgb(173, 213, 116);
+    border-radius: 30px;
+}
+
+.hapo-erp {
+    height: 77px;
+    width: 256px;
+    margin: 150px 0 50px 0;
+}
+
+.b-f-t {
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.better,
+.faster,
+.together {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+}
+
+.better span,
+.faster span,
+.together span {
+    display: block;
+    font-size: 40px;
+}
+
+.better img,
+.faster img,
+.together img {
+    height: 50px;
+}
+
+.text {
+    font-style: italic;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.start-now {
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 2px solid black;
+    background-color: green;
+    color: white;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.learnt-today {
+    /* display: inline-block; */
+    /* padding: 100px 0 0 0; */
+    margin-top: 100px;
+}
+
+.learnt-left,
+.learnt-right {
+    width: 49%;
+    display: inline-block;
+    /* justify-content: start; */
+}
+
+.learnt-left img {
+    width: 100%;
+    height: 100%;
+}
+
+.learnt-right div {
+    width: 100%;
+    text-align: start;
+}

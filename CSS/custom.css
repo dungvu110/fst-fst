@@ -1,0 +1,114 @@
+/* reset margin, padding */
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.green {
+  border: 1px solid green;
+}
+
+.red {
+  border: 1px solid red;
+}
+
+.text-end {
+  text-align: end;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.banner {
+  height: 830px;
+  background: url("https://harypham97.github.io/template-bootstrap/banner.jpg") center center no-repeat;
+  padding: 20px;
+}
+.banner .about-sign-in {
+  height: 80px;
+  width: 100%;
+}
+.banner .about-sign-in .about,
+.banner .about-sign-in .sign-in {
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+.banner .about-sign-in .sign-in {
+  margin-right: 60px;
+  margin-left: 30;
+  border: 2px solid #add574;
+  border-radius: 30px;
+}
+.banner .logo .hapo-erp {
+  height: 77px;
+  width: 256px;
+  margin: 150px 0 50px 0;
+}
+.banner .b-f-t {
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+.banner .b-f-t .better,
+.banner .b-f-t .faster,
+.banner .b-f-t .together {
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+}
+.banner .b-f-t .better span,
+.banner .b-f-t .faster span,
+.banner .b-f-t .together span {
+  display: block;
+  font-size: 40px;
+}
+.banner .b-f-t .better img,
+.banner .b-f-t .faster img,
+.banner .b-f-t .together img {
+  height: 50px;
+}
+.banner .text {
+  font-style: italic;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.banner .btn-start .start-now {
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 2px solid black;
+  background-color: green;
+  color: white;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.learnt-today {
+  margin: 80px 0;
+  padding: 0 70px 0 90px;
+  font-size: 0;
+}
+.learnt-today .left,
+.learnt-today .right {
+  width: 50%;
+  display: inline-block;
+}
+.learnt-today .left img {
+  max-width: 100%;
+  height: 100%;
+}
+.learnt-today .right {
+  font-size: 16px;
+}
+.learnt-today .right div {
+  max-width: 100%;
+}
+.learnt-today .right .title img,
+.learnt-today .right .title h1 {
+  display: inline-block;
+}
+
+/*# sourceMappingURL=custom.css.map */
